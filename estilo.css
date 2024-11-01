@@ -1,0 +1,76 @@
+<!--CADASTRO-->
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(144deg, #000000, #000000 50%, #292c2a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+ 
+.container {
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+ 
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #159442;
+}
+ 
+.input-group {
+    margin-bottom: 15px;
+}
+ 
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fffefe;
+}
+ 
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+.input-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+ 
+button {
+    width: 100%;
+    background: #119640;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+ 
+button:hover {
+    background: #14833b;
+}
+
+img {
+    width: 10;
+    height: 10;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixar Spotify</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #1db954, #191414);
+            color: #fff;
+            min-height: 100vh;
+            justify-content: space-between;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #191414;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar a {
+            color: #1db954;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 80px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #1db954;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            max-width: 600px;
+        }
+
+        /* tá varzea kkkkkkkk */
+        .download-button {
+            background-color: #1db954;
+            color: #fff;
+            padding: 15px 40px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .download-button:hover {
+            background-color: #14833b;
+        }
+
+        /* alguem lembra de deixar bonitinho essa parte seus paia */
+        .footer {
+            background-color: #fff;
+            color: #333;
+            width: 100%;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .footer h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+
+        .footer a {
+            color: #1db954;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">&larr; Voltar</a>
+    </div>
+
+    <div class="container">
+        <h1>Baixar Spotify</h1>
+        <p>Baixe o Spotify agora e leve suas músicas favoritas para onde você for. Escute as playlists que você ama, descubra novas faixas e tenha acesso às músicas mais sensacionais do momento!</p>
+        
+        <a href="https://www.spotify.com/download" class="download-button">Baixe Agora</a>
+    </div>
+
+    <div class="footer">
+        <h3>Conecte-se ao Spotify</h3>
+        <p><a href="https://www.spotify.com/premium">Spotify Premium</a> - Descubra um novo mundo de músicas sem anúncios</p>
+        <p><a href="https://support.spotify.com/">Suporte</a> - Encontre ajuda e suporte a qualquer momento</p>
+        <p><a href="https://newsroom.spotify.com/">Notícias</a> - Fique por dentro das novidades do Spotify</p>
+    </div>
+
+</body>
+</html>

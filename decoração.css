@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #15d70f);
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #f5f1f1;
+    font-weight: 600;
+  }
+  li {
+    margin-bottom: 8px;
+    font-size: 1.2em; /* Diminui o tamanho da fonte */
+    font-family: 'Poppins', Arial, sans-serif; /* Fonte moderna e chamativa */
+    color: #615a5a; /* Cor clara para destacar no fundo escuro */
+    font-weight: 600; /* Peso maior para dar mais destaque */
+    text-transform: uppercase; /* Coloca o texto em maiúsculas */
+    letter-spacing: 0.5px; /* Aumenta o espaçamento entre letras */
+  }
+  
+
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .toggle-container label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toggle-container p {
+    margin-left: 10px;
+  }
+  
+  .pricing-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    background: linear-gradient(to bottom, #adff2f, #32cd32, #000000); /* Degradê verde-limão, verde e preto */
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white; /* Torna o texto branco para melhor contraste */
+  }
+  
+  .plan h2 {
+    font-size: 1.5em;
+    color: #000000; /* Amarelo para destaque no título */
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .plan ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .plan ul li {
+    margin: 10px 0;
+    color: #f0f0f0;
+  }
+  
+  .plan button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000; /* Botão amarelo para contraste */
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .plan.featured {
+    border-color: #000000;
+    background: linear-gradient(to bottom, #adff2f, #32cd32, #000000);
+  }
+  
+  .plan button:hover {
+    background-color: #000000;
+  }
+  

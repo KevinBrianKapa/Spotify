@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda - Spotify</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1db954, #191414);
+            color: #fff;
+        }
+
+
+        .navbar {
+            width: 100%;
+            background-color: #191414;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar a {
+            color: #1db954;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #1db954;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+
+        .help-links a {
+            display: inline-block;
+            background-color: #1db954;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .help-links a:hover {
+            background-color: #14833b;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <a href="index.html">&larr; Voltar</a>
+    </div>
+
+
+    <div class="container">
+        <h1>Ajuda</h1>
+        <p>Se precisar de ajuda, utilize um dos meios de comunicação abaixo:</p>
+
+        <div class="help-links">
+            <a href="https://support.spotify.com/br/">Centro de Ajuda</a>
+            <a href="https://support.spotify.com/br/contact-spotify-support/">Suporte Spotify</a>
+            <a href="https://community.spotify.com/">Comunidade Spotify</a>
+        </div>
+    </div>
+
+</body>
+</html>

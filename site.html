@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planos de Preço</title>
+  <link rel="stylesheet" href="decoração.css" href="parte.js">
+</head>
+<body>
+<br></br>
+<br></br>  
+
+
+<h1>Escolha o Plano 
+    Ideal para Você</h1>
+  
+  <!-- Alternador de Preço -->
+  <div class="toggle-container">
+    <label>
+      <input type="checkbox" id="togglePricing" onclick="togglePricing()">
+      <span class="slider"></span>
+      <p>Mensal / Anual</p>
+    </label>
+  </div>
+
+  <!-- Planos de Preço -->
+  <div class="pricing-container">
+    <div class="plan">
+      <h2>Básico</h2>
+      <p id="basic-price">R$ 29/mês</p>
+      <ul>
+        <li>400 músicas liberadas</li>
+        <li>Suporte limitado</li>
+   
+      </ul>
+      <button>Escolher Plano</button>
+    </div>
+
+    <div class="plan featured">
+      <h2>Padrão</h2>
+      <p id="standard-price">R$ 49/mês</p>
+      <ul>
+        <li>1000 músicas liberadas</li>
+        <li>Sem propagandas</li>
+    
+      </ul>
+      <button>Escolher Plano</button>
+    </div>
+
+    <div class="plan">
+      <h2>Premium</h2>
+      <p id="premium-price">R$ 99/mês</p>
+      <ul>
+        <li>5000 úsicas liberadas</li>
+        <li>Suporte VIP</li>
+        <li>Domínios ilimitados</li>
+      </ul>
+      <button>Escolher Plano</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
